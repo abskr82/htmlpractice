@@ -3,27 +3,36 @@
   <head>
     <title>Some Title</title>
     <meta charset="utf-8"/>
+    <style>
+      .id_1{
+        color:red;
+      }
+      #id_1{
+        color:red;
+      }
+      li:nth-child(3){
+        color:green;
+      }
+    </style>
   </head>
   <body>
     <h1>Some text</h1>
     <p>some para <em>emphasize</em></p>
     <ol>
-      <li>List item 1</li>
+      <li id='id_1'>List item 1</li>
       <li>List item 2</li>
       <li>List item 3</li>
     </ol>
     <ul>
       <li>List item 1</li>
-      <li>List item 2</li>
+      <li class="id_1">List item 2</li>
       <li>List item 3</li>
     </ul>
     <dl>
       <dt>Definition Term</dt>
-        <dd>Definition details</dd>
+      <dd>Definition details</dd>
       <dt>Ferrari</dt>
-        <dd>Nice Car</dd>
+      <dd>Nice Car</dd>
     </dl>
-
-
   </body>
 </html>
