@@ -1,0 +1,72 @@
+body{
+  width:700px;
+  /*below data means 20 pixel margin from top and 20 pixel margin from bottom
+  rest margins are auto
+  */
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+article img{
+  float: left;
+  margin-right: 30px;
+}
+
+article .continue{
+  float: right;
+}
+
+.continue:after{
+  content: ')';
+}
+.continue:before{
+  content: '(';
+}
+
+
+.preview{
+  float:right;
+  width:250px;
+}
+
+.meta a{
+  font-style: italic;
+}
+a{
+  color: #276056;
+}
+
+.meta{
+  padding-left: 0;
+  margin: 0 0 8px;
+}
+
+.meta li{
+  display: inline;
+}
+
+.meta li:after{
+  content: '\\';
+  padding: 0 5px;
+}
+
+.meta li:last-child:after{
+  content: none;
+}
+
+
+.post_info{
+  color: #999;
+  background: #f3f3f3;
+  padding: 2px;
+  float: left;
+}
+
+.post_info a{
+  color: #999;
+  text-decoration: none;
+}
+
+.post_info a:hover{
+  color: black;
+}
