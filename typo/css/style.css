@@ -1,0 +1,12 @@
+h1{
+  font-size: 150px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: monospace;
+  letter-spacing: 2px;
+  color: green;
+  text-transform: lowercase;
+  text-shadow: 5px 10px 10px red;
+  font-variant: small-caps;
+  font-family: 'Lobster', cursive;
+}

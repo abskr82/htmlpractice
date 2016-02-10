@@ -1,0 +1,19 @@
+.box{
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  background: green;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+}
+
+.wrap{
+  width: 500px;
+  height: 500px;
+  background: red;
+  margin: auto;
+  position: relative;
+
+
+}
