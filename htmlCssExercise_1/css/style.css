@@ -1,0 +1,163 @@
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  margin-top: 0;
+  z-index: 10;
+
+}
+
+header .logo{
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: 'Knewave', cursive;;
+  color: #2c3e4f;
+}
+
+header .tabs{
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+
+}
+.tabs a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+
+}
+.tabs a:hover{
+  color: #22a39f !important;
+  font-size: 29px;
+}
+
+
+/*CSS for nav tabs*/
+nav li{
+  display:inline;
+}
+
+/*Define css for hero element*/
+.hero_elememt{
+  background: url(../img/h4.jpg) no-repeat;
+  margin-left: 0;
+  width: 100%;
+  height: 875px;
+}
+.hero_elememt blockquote{
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 100px;
+  width: 300px;
+  word-wrap: break-word;
+  clear: both;
+}
+
+.hero_elememt blockquote:before{
+  content: '“';
+  font-size: 100px;
+  color:green;
+  font-style: italic;
+  float: left;
+}
+.hero_elememt blockquote:after{
+  content: '”';
+  font-size: 100px;
+  color:green;
+  font-style: italic;
+  float:right;
+}
+.desc{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+  color: #2c3e4f;
+  font-family: "ff-tisa-web-pro",serif;
+}
+
+section{
+  margin-top: 80px;
+  padding: 3px;
+  box-sizing: content-box;
+  color: #2c3e4f;
+  font-family: "ff-tisa-web-pro",serif;
+  font-size: 15px;
+  /*margin: 10px;*/
+
+}
+
+.three-section{
+  margin-top: 100px;
+}
+
+.three-sec-img img{
+  width: 300px;
+  height: 250px;
+}
+.iner_img img{
+  width: 300px;
+  height: 250px;
+}
+.iner_desc,.iner_img{
+  margin-top: 150px;
+  color: #2c3e4f;
+  font-family: "ff-tisa-web-pro",serif;
+  font-size: 15px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.social_links ul li{
+  display: inline;
+
+}
+.social_links img{
+  width: 40px;
+  margin-top: 20px;
+
+}
+footer{
+  background: #2c3e4f;
+  width: 100%;
+  height: 100px;
+  font-family: "adelle-sans",sans-serif;
+  color:white;
+}
+
+.address{
+  margin-top: 20px;
+  font-size: 15px;
+  width:300px;
+  float: left;
+  margin-right: 200px;
+  margin-left: 20px;
+}
+
+.contact_details{
+  margin-top: 20px;
+  float: left;
+  font-size: 15px;
+  width:300px;
+  text-align: center;
+
+}
+.contact_details a{
+  text-decoration: none;
+  color: white;
+}
+
+.social_links{
+  float: right;
+  width:300px;
+  margin-right: 20px;
+}
+
+.contact_details .copyright{
+  margin-left: 30px;
+}
