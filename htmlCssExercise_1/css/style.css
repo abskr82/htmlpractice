@@ -1,10 +1,16 @@
+/*css for body tag*/
+body{
+  font-family: 'Nunito', sans-serif;
+  text-align: justify;
+}
+
+/*Header section with fixed position*/
 header{
   position: fixed;
   background: white;
   width: 100%;
   margin-top: 0;
   z-index: 10;
-
 }
 
 header .logo{
@@ -15,23 +21,30 @@ header .logo{
   color: #2c3e4f;
 }
 
+header .logo h1{
+  font-size: 40px;
+}
+
+/*maintaining the href color throughout*/
+header .logo a{
+  text-decoration: none;
+  color: inherit;
+}
+
 header .tabs{
   float: right;
   margin-right: 50px;
-  margin-top: 10px;
-
+  margin-top: 27px;
 }
+
+/*Styling tabs*/
 .tabs a{
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
   font-size: 28px;
-
 }
 .tabs a:hover{
   color: #22a39f !important;
-  font-size: 29px;
 }
-
 
 /*CSS for nav tabs*/
 nav li{
@@ -45,6 +58,7 @@ nav li{
   width: 100%;
   height: 875px;
 }
+
 .hero_elememt blockquote{
   color: white;
   font-size: 20px;
@@ -57,28 +71,29 @@ nav li{
   clear: both;
 }
 
-.hero_elememt blockquote:before{
-  content: '“';
+/*CSS for quotes*/
+.before,.after{
   font-size: 100px;
-  color:green;
   font-style: italic;
-  float: left;
+  font-family: "ff-tisa-web-pro",serif;
 }
-.hero_elememt blockquote:after{
-  content: '”';
-  font-size: 100px;
-  color:green;
-  font-style: italic;
-  float:right;
+
+.after{
+  margin-top: 30px;
+  margin-right: 20px;
+  float: right;
 }
+
+/*Alignment for image descriptor text*/
 .desc{
   text-align: center;
   margin-top: 50px;
   font-size: 28px;
   color: #2c3e4f;
-  font-family: "ff-tisa-web-pro",serif;
 }
 
+
+/*Three section CSS*/
 section{
   margin-top: 80px;
   padding: 3px;
@@ -86,8 +101,6 @@ section{
   color: #2c3e4f;
   font-family: "ff-tisa-web-pro",serif;
   font-size: 15px;
-  /*margin: 10px;*/
-
 }
 
 .three-section{
@@ -97,37 +110,63 @@ section{
 .three-sec-img img{
   width: 300px;
   height: 250px;
+  border-radius: 40px;
+  border: 1px solid #73AD21;
 }
+
+/*Hover Effect for images*/
+.three-sec-img img:hover{
+  opacity: 0.5;
+}
+
+.portfolio_grid img:hover{
+  opacity: 0.5;
+}
+
 .iner_img img{
   width: 300px;
   height: 250px;
 }
+
 .iner_desc,.iner_img{
   margin-top: 150px;
   color: #2c3e4f;
-  font-family: "ff-tisa-web-pro",serif;
   font-size: 15px;
 }
+
+.three-sec-desc{
+  margin-top: 20px;
+}
+
+/*CSS for hr tag beautification*/
 hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-.social_links ul li{
-  display: inline;
 
+.end_section{
+  margin-top: 0px;
 }
-.social_links img{
-  width: 40px;
-  margin-top: 20px;
 
-}
+/*Footer css*/
 footer{
   background: #2c3e4f;
   width: 100%;
   height: 100px;
   font-family: "adelle-sans",sans-serif;
   color:white;
+}
+
+.social_links ul li{
+  display: inline;
+
+}
+
+.social_links img{
+  width: 40px;
+  margin-top: 20px;
+
 }
 
 .address{
@@ -145,8 +184,8 @@ footer{
   font-size: 15px;
   width:300px;
   text-align: center;
-
 }
+
 .contact_details a{
   text-decoration: none;
   color: white;
@@ -160,4 +199,41 @@ footer{
 
 .contact_details .copyright{
   margin-left: 30px;
+}
+
+/*CSS for portfolio header div*/
+.portfolio_header{
+  position: relative;
+  background: #eff5f5;
+  width: 100%;
+  margin-top: 0;
+  height: 200px;
+  margin-bottom: 90px;
+  margin-top:  90px;
+}
+
+.portfolio_grid img{
+  width: 270px;
+  height: 220px;
+}
+
+/*Style for portfolio header text*/
+.portfolio_header .p_head h2{
+  font-size: 40px;
+  text-align: center;
+}
+
+/*Style for portfolio sub header*/
+.portfolio_header .p_sub_head p{
+  font-size: 30px;
+  text-align: center;
+}
+
+.portfolio_img_header{
+  text-align: center;
+  font-size: 20px;
+}
+.portfolio_img_sub_header{
+  text-align: center;
+  font-size: 15px;
 }
