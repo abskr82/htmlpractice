@@ -1,0 +1,18 @@
+.content
+{
+height:100px;
+width:100px;
+background-color:Gray;
+display:inline-block;
+float:left;
+border:1px solid Red;
+margin:10px;
+}
+
+.sample{
+height:100px;
+width:100px;
+background-color:Gray;
+clear:both;
+margin:10px;
+}
