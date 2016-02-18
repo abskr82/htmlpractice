@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Scotchy</title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="include/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet"> -->
+		<!--Awesome css for icons  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+	<header>
+		<h1 id="main_header" class="text-center">Scotchy</h1>
+	</header> <!--end of header-->
+	<div id="nav">
+		<div class="navbar navbar-static-top">
+			<div class="container">
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand hide_brand" href="#">Scotchy</a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-right">
+						<li><a href="#">Home</a></li>
+				          <li><a href="#collectionDivider">Collections</a></li>
+				          <li><a href="#twoDivSection">Services</a></li>
+				          <li><a href="#productSection">Products</a></li>
+				          <li><a href="#aboutSection">About</a></li>
+					</ul>
+					<!-- section for scroll down -->
+					<div class="scroll-down">
+						<!-- <a class="btn page-scroll" href="#carouselDiv"> -->
+						<button type="submit" class="btn btn-default" id="go-to-crsl" >
+							<!-- <span class="glyphicon glyphicon-triangle-bottom"></span> -->
+							<i class="glyphicon glyphicon-chevron-down"></i>
+						</button>
+						<!-- </a> -->
+						<!-- end of scroll-down  -->
+					</div>
+
+				</div>   <!-- end of navbar-responsive-collapse-->
+			</div> <!--end of container-->
+		</div> <!--navbar navbar-default navbar-static-top-->
+	</div> <!-- end of #nav  -->
+
+<!--
+<div class="videoPage">
+  <video class="mainVideo" poster="img/poster.png" autoplay="true" loop>
+	<source src="videos/beerGlass.mp4" type="video/mp4">
+  </video>
+  <div class="videoContent">
+	<h1>Opening happiness!!</h1>
+  </div>
+</div>
+
+ -->
+
+	<!-- Begin page content -->
+	<div class="divider" id="carouselDiv"></div>
+	<div class="carousel slide" id="myCarousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active" id="slide1">
+				<div class="carousel-caption">
+					<h4>Bootstrap 3</h4>
+					<p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3!</p>
+				</div><!-- end carousel-caption-->
+			</div><!-- end item -->
+
+			<div class="item" id="slide2">
+				<div class="carousel-caption">
+					<h4>Learn to code a website in 4-hours!</h4>
+					<p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p>
+				</div><!-- end carousel-caption-->
+			</div><!-- end item -->
+
+			<div class="item" id="slide3">
+				<div class="carousel-caption">
+					<h4>Web Hosting 101</h4>
+					<p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p>
+				</div><!-- end carousel-caption-->
+			</div><!-- end item -->
+		</div><!-- carousel-inner -->
+
+		<!-- Controls -->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+	</div><!-- end myCarousel -->
+	<!-- start of conatianer -->
+	<div class="container">
+		<div class="divider" id="collectionDivider"></div>
+		<hr class="colored">
+		<!--Collection section  -->
+		<div class="collectionSection">
+			<div class="row" id="collectionHeading">
+				<div class="col-12">
+					<h2  class="text-center">Our Collection</h2>
+					<p class="lead text-center">We have world's finest collection </p>
+				</div> <!--end of col 12-->
+			</div><!--end of collectionHeading -->
+
+			<div class="row" id="collection">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Teacher's pride
+							</h3>
+						</div> <!--end of panel heading-->
+						<img src="img/collectionIMG_01.jpg" alt="HTML5" class="img-circle"/>
+						<p>
+							some text some text some text some text some text some text some text some text
+						</p>
+						<a href="#" class="btn btn-danger btn-block">Learn to code html 5 	</a>
+					</div> <!--end of panel-->
+				</div> <!--end of col-feature-->
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								A Bloody Marvel
+							</h3>
+						</div> <!--end of panel heading-->
+						<img src="img/collectionIMG_02.jpg" alt="HTML5" class="img-circle" />
+						<p>
+							some text some text some text some text some text some text some text some text
+						</p>
+						<a href="#" class="btn btn-info btn-block">Learn to code html 5 	</a>
+					</div> <!--end of panel-->
+				</div> <!--end of col-feature-->
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Speed and Sound
+							</h3>
+						</div> <!--end of panel heading-->
+						<img src="img/collectionIMG_03.jpg" alt="HTML5" class="img-circle"/>
+						<p>
+							some text some text some text some text some text some text some text some text
+						</p>
+						<a href="#" class="btn btn-warning btn-block">Learn to code html 5 	</a>
+					</div> <!--end of panel-->
+				</div> <!--end of col-feature-->
+			</div> <!--end of collection id-->
+		</div><!--end of collectionSection-->
+		<div class="divider" id="twoDivSection"></div>
+		<div class="row">
+			<!-- Give a  hr tab -->
+		   <div class="col-sm-12">
+			   <hr class="colored"/>
+		   </div> <!--end of col-sm-12 div-->
+	   </div> <!--end of row div-->
+
+	   <!--start of two div section  -->
+		<div class="twoDivSection">
+			<h1 class="text-center">Our Services</h1>
+			<div class="row twoDivRow">
+				<div class="col-md-4">
+					<img src="img/services_large_03.jpg" alt="Our Services Pic1" class="img_services"/>
+				</div>
+				<div class="col-md-8">
+					<h3>Some heading</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+			<div class="row twoDivRow">
+				<div class="col-md-8">
+					<h3>Some heading</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/services_large_02.jpg" alt="Our Services Pic2" class="img_services"/>
+				</div>
+			</div>
+		</div><!--end of two div section  -->
+
+		<div class="divider" id="productSection"></div>
+		<div class="row">
+			<!-- Give a  hr tab -->
+		   <div class="col-sm-12">
+			   <hr class="colored"/>
+		   </div> <!--end of col-sm-12 div-->
+	   </div> <!--end of row div-->
+	   <div class="productSection">
+		   <h1 class="text-center">Our Products</h1>
+		   <div class="row" id="moreCourses">
+			   <div class="col-12">
+				   <div class="thumbnails row">
+					   <div class="col-6">
+						   <div class="thumbnail">
+							   <img src="img/product_01.jpg" alt="Products">
+
+							   <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>50</div>
+
+							   <div class="caption">
+								   <h3>ROYALE BIANCO</h3>
+
+								   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								   <p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+							   </div><!-- end caption -->
+						   </div><!-- end thumbnail -->
+					   </div><!-- end col-6 -->
+
+					   <div class="col-6">
+						   <div class="thumbnail">
+							   <img src="img/product_02.jpg" alt="Web Hosting 101">
+
+							   <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>45</div>
+
+							   <div class="caption">
+								   <h3>ABSOLUT ELYX</h3>
+
+								   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								   <p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+							   </div><!-- end caption -->
+						   </div><!-- end thumbnail -->
+					   </div><!-- end col-6 -->
+				   </div><!-- end row -->
+			   </div><!-- end col-12 -->
+		   </div><!-- end moreCourses -->
+		   <div class="row" id="moreCourses">
+			  <div class="col-12">
+				  <div class="thumbnails row">
+					  <div class="col-6">
+						  <div class="thumbnail">
+							  <img src="img/product_03.jpg" alt="PSD to HTML5 & CSS3">
+
+							  <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+
+							  <div class="caption">
+								  <h3>THE GILD</h3>
+
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								  <p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+							  </div><!-- end caption -->
+						  </div><!-- end thumbnail -->
+					  </div><!-- end col-6 -->
+
+					  <div class="col-6">
+						  <div class="thumbnail">
+							  <img src="img/product_04.jpg" alt="Web Hosting 101">
+
+							  <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>24</div>
+
+							  <div class="caption">
+								  <h3>Johnnie Walker XR</h3>
+
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								  <p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+							  </div><!-- end caption -->
+						  </div><!-- end thumbnail -->
+					  </div><!-- end col-6 -->
+				  </div><!-- end row -->
+			  </div><!-- end col-12 -->
+		  </div><!-- end moreCourses -->
+
+		  <div class="row" id="moreCourses">
+		  	<div class="col-12">
+		  		<div class="thumbnails row">
+		  			<div class="col-6">
+		  				<div class="thumbnail">
+		  					<img src="img/product_05.jpg" alt="PSD to HTML5 & CSS3">
+
+		  					<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>67</div>
+
+		  					<div class="caption">
+		  						<h3>ROYALE SALUTE</h3>
+
+		  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		  						<p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+		  					</div><!-- end caption -->
+		  				</div><!-- end thumbnail -->
+		  			</div><!-- end col-6 -->
+
+		  			<div class="col-6">
+		  				<div class="thumbnail">
+		  					<img src="img/product_06.jpg" alt="Web Hosting 101">
+
+		  					<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>56</div>
+
+		  					<div class="caption">
+		  						<h3>CHIVAS REGAL</h3>
+
+		  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		  						<p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+		  					</div><!-- end caption -->
+		  				</div><!-- end thumbnail -->
+		  			</div><!-- end col-6 -->
+		  		</div><!-- end row -->
+		  	</div><!-- end col-12 -->
+		  </div><!-- end moreCourses -->
+		  <div class="row" id="moreCourses">
+		  	<div class="col-12">
+		  		<div class="thumbnails row">
+		  			<div class="col-6">
+		  				<div class="thumbnail">
+		  					<img src="img/product_07.jpg" alt="PSD to HTML5 & CSS3">
+
+		  					<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>90</div>
+
+		  					<div class="caption">
+		  						<h3>Mc Dowell's</h3>
+
+		  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		  						<p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+		  					</div><!-- end caption -->
+		  				</div><!-- end thumbnail -->
+		  			</div><!-- end col-6 -->
+
+		  			<div class="col-6">
+		  				<div class="thumbnail">
+		  					<img src="img/product_08.jpg" alt="Web Hosting 101">
+
+		  					<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>60</div>
+
+		  					<div class="caption">
+		  						<h3>PLANTATION</h3>
+
+		  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+		  						<p><a href="#" class="btn btn-primary btn-small" target="_blank">Buy</a> <a href="#" target="_blank" class="btn btn-small btn-link">Find more</a></p>
+		  					</div><!-- end caption -->
+		  				</div><!-- end thumbnail -->
+		  			</div><!-- end col-6 -->
+		  		</div><!-- end row -->
+		  	</div><!-- end col-12 -->
+		  </div><!-- end moreCourses -->
+
+
+	   </div>
+	</div> <!--end of container-->
+
+	<div class="divider" id="aboutSection"></div>
+	<div class="row">
+		<!-- Give a  hr tab -->
+	   <div class="col-sm-12">
+		   <hr class="colored"/>
+	   </div> <!--end of col-sm-12 div-->
+   </div> <!--end of row div-->
+
+	<footer>
+		<div class="container">
+			<div class="footerScrollDiv">
+				<div class="row">
+					<div class="col-md-2 pull-right pull-up">
+						<button type="submit" class="btn btn-default" id="go-to-top" >
+							<!-- <span class="glyphicon glyphicon-triangle-bottom"></span> -->
+							<i class="glyphicon glyphicon-chevron-up footerScroll"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="row contact-details">
+				<div class="col-md-4">
+					<h4><i class="fa fa-phone"></i> Call
+						<br><a href="tel:097114 45422">097114 45422</a>
+					</h4>
+
+				</div>
+				<div class="col-md-4">
+					<h4><i class="fa fa-map-marker"></i> Visit <br>
+						117, Koramangala 7th Block,
+						Koramangala, Bengaluru, Karnataka 560030
+					</h4>
+
+				</div>
+				<div class="col-md-4">
+					<h4><i class="fa fa-envelope"></i> EMAIL
+						<br><a href="mailto:abhishekkumar647@outlook.com">Abhishek Kumar</a>.<br>
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 contact-details">
+					<h4>
+						<a href="https://www.facebook.com">
+							<i class="fa fa-facebook-official fa-3x"></i>
+						</a>
+						&nbsp;
+						<a href="https://www.facebook.com">
+							<i class="fa fa-twitter fa-3x"></i>
+						</a>
+						&nbsp;
+						<a href="https://www.facebook.com">
+							<i class="fa fa-instagram fa-3x"></i>
+						</a>
+					</h4>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h6 class="text-center">Copyright &copy; 2016 Abhishek</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h6 class="text-center">Coded with <span class="glyphicon glyphicon-heart"></span> by Abhishek</h6>
+					</div>
+				</div>
+			</div>
+		</div><!-- end container -->
+	</footer>
+
+
+
+
+
+
+
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
