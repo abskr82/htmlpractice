@@ -1,0 +1,369 @@
+/*
+
+My Custom CSS
+=============mar
+
+Author:  Abhishek Kumar
+Updated: February 2016
+Notes:	 Hand coded for stackroute Assignment on bootstrap
+
+*/
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+ body{
+     font-family: 'Nunito', sans-serif;
+     text-align: justify;
+ }
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+/*Styling branding text*/
+.navbar-brand{
+	font-family: 'Knewave', cursive;
+    color: #2c3e4f;
+	font-size: 50px;
+}
+
+#header-img{
+	width: 124px;
+	height: 96px;
+}
+
+#affix_nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1000;
+}
+
+#affix_nav{
+	position: relative;
+}
+
+/*Shadow effect below navbar*/
+.navbar{
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+	-moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    height:80px;
+    padding: 10px;
+}
+
+
+/*zoom effect for images*/
+
+#collection img:hover{
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	transform: scale(1.1);
+}
+
+
+/* changing color for tabs on scroll*/
+.navbar-inverse .navbar-nav>.active>a{
+	color:#41c4ab;
+	background-color: #fff;
+}
+
+/*a custom class for styling navbar on scroll*/
+
+.hide_brand{
+	visibility: hidden;
+}
+
+.nav_scroll{
+	background-color: black;
+}
+nav.active a{
+	color: #41c4ab;
+	background-color: white;
+}
+
+.navbar .nav > li > a{
+	font-size: 17px;
+}
+
+/*css to bring back background color for navbar*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   background-color: #222222;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   background-color: #F8F8F8;
+}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#collection {
+	text-align: center;
+}
+
+#collection img {
+	margin: 0 0 20px;
+	height: 200px;
+	width: 200px;
+}
+
+img.img_services{
+	height: 380px;
+	width: 400px;
+    border-radius: 10%;
+    margin-top: 30px;
+    
+}
+
+/*hr CSS for lenght and color effect*/
+hr.colored{
+	border-color: 	#5F9EA0	;
+}
+
+hr {
+    max-width: 400px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 2px;
+    margin-top: 60px;
+	margin-bottom: 2px;
+}
+
+#collectionHeading{
+	margin: 20px;
+}
+
+.twoDivRow{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+footer {
+	background: url(../../img/footer_img_02.jpg) no-repeat;
+	color: #3333cc;
+	font-size: 11px;
+	padding: 20px;
+	width: 100%;
+	height: 500px;
+}
+
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+
+.thumbnail img{
+	width: 400px;
+	height: 380px;
+
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+#follow{
+    color: #2c3e4f;
+}
+.contact-details h4{
+	text-align: center;
+	text-decoration: none;
+	color: #3333cc;
+}
+.contact-details a{
+	text-decoration: none;
+	color: #3333cc;
+	cursor: pointer;
+}
+/*navbar font and size*/
+.navbar-brand,#main_header{
+	font-family: 'Knewave', cursive;
+	font-size: 50px;
+}
+.navbar-inverse .navbar-brand{
+    color: #2c3e4f;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.navbar-default .navbar-brand,#main_header{
+    color: #2c3e4f;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.scroll-down{
+	position: absolute;
+    width: 80%;
+    bottom: 0px;
+    text-align: center;
+	border: none;
+}
+
+.scroll-down button{
+	-webkit-appearance: none;
+	outline: none;
+	border: 0;
+	background: transparent
+}
+
+.footerScroll{
+	-webkit-appearance: none;
+	outline: none;
+	border: 1;
+	border-color: red;
+	color: green;
+	background: transparent;
+
+}
+.pull-up{
+	top: -50px;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+	text-decoration: none;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+   	margin-top: 0px;
+   }
+
+   .carousel-caption {
+   	font-size: 24px;
+   }
+
+   .carousel-caption h4 {
+   	font-size: 32px;
+   }
+
+   #myCarousel .item { height: 400px; }
+
+   #slide1 {
+   	background: url('../../img/carousel_medium_01.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   	background: url('../../img/carousel_medium_02.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   	background: url('../../img/carousel_medium_03.jpg') top center no-repeat;
+   }
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.thumbnail .price {
+		font-size: 14px;
+	}
+
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	#main_header{
+		font-size: 20px;
+	}
+    .navbar-brand{
+    	font-size: 20px;
+    }
+    #header-img{
+    	width: 64px;
+    	height: 40px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../img/carousel_small_01.jpg') top center no-repeat;
+	}1
+	#slide2 {
+		background: url('../../img/carousel_small_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../img/carousel_small_03.jpg') top center no-repeat;
+	}
+
+	.carousel-caption {
+		font-size: 16px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	#main_header{
+		font-size: 40px;
+	}
+	footer {
+		/*background: #333;*/
+		background: url(../../img/footer_img_medium_02.png) no-repeat;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item { height: 500px; }
+
+	#slide1 {
+		background: url('../../img/carousel_large_01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../img/carousel_large_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../img/carousel_large_03.jpg') top center no-repeat;
+	}
+}
